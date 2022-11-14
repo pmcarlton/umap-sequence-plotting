@@ -50,7 +50,7 @@ Download these files one at a time, renaming as necessary, and place them in a n
 
 (you can then paste in the commands from the script line-by-line)
 
-Alternatively you can just run the script using `python worm_human_plot.py` from the Terminal, non-interactively.
+Alternatively you can just run the script using `python3 worm_human_plot.py` from the Terminal, non-interactively.
 
 
 
