@@ -40,10 +40,10 @@ Download these files one at a time, renaming as necessary, and place them in a n
 2. Install the needed modules (Dash, UMAP, Pandas, and iPython for ease of use):
 
 ### One way to do it is:
-`pip install dash`
-`pip install pandas`
-`pip install umap-learn`
-`pip install ipython`
+`pip install dash`  
+`pip install pandas`  
+`pip install umap-learn`  
+`pip install ipython`  
 
 ### Another way is to use `conda` to create a virtual environment and install the same thing (TODO explain more about this)
 
