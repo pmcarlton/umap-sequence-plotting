@@ -1,7 +1,7 @@
 # umap-sequence-plotting
 Visualization and comparison of protein and DNA sequence embeddings
 
-<img width="879" alt="Worm_Human_UMAP" src="https://user-images.githubusercontent.com/1320820/201573317-377e2be9-8fb8-4bc3-a28a-cc5a7e7952c9.png">
+<img width="879" alt="Worm_Human_UMAP" src="Worm_Human_UMAP.png">
 
 
 Instructions should work on Mac OSX of recent versions (v12 and higher)
