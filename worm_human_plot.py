@@ -28,7 +28,7 @@ humanxy=wormfit.transform(humanprot)
 
 proteins=pd.concat((pd.DataFrame(wormxy,index=wormkeys,columns=['X','Y'],copy=True).assign(species='worm'),pd.DataFrame(humanxy,index=humankeys,columns=['X','Y'],copy=True).assign(species='human')),axis=0)
 
-wdhd=[x[0]+x[1] for x in (zip(wormkeys,wdesc))]+[x[0]+x[1] for x in (zip(humankeys,hdesc))]
+wdhd=[x[0]+"\n"+x[1] for x in (zip(wormkeys,wdesc))]+[x[0]+"\n"+x[1] for x in (zip(humankeys,hdesc))]
 
 fig=px.scatter(proteins,x='X',y='Y',color='species',hover_name=wdhd)
 fig.update_traces(marker=dict(opacity=0.3))
